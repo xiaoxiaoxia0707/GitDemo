@@ -1,0 +1,316 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+ul{
+	list-style-type: none;
+	padding:0;
+}
+p{
+	margin: 0;
+}
+.header{
+	width:100%;
+	height: 650px;
+	background-color: #61c0e7;
+}
+.header-1{
+	width: 1030px;
+	height: 118px;
+	margin: 0 auto;
+}
+.header-1 .logo{
+	background: url(../images/logo-114x115.png) no-repeat 0 center;
+	width: 114px;
+	height: 115px;
+	float: left;
+}	
+.header-1 .nav{
+	background: url(../images/nav-30x22.png) no-repeat 0 center;
+	width: 30px;
+	height: 102px;
+	float: right;
+}
+.header-2{
+	width: 1030px;
+	height: 248px;
+	margin: 0 auto;
+}
+.header-2 i{
+	background: url(../images/meet-303x71.png) no-repeat 0 center;
+	width: 303px;
+	height: 71px;
+	display:block;
+	float: right;
+	margin-left: 707px;
+}
+.header-2 p{
+	color: #ffffff;
+	font-size: 25px;
+	font-weight: bold;
+	height: 35px;
+	margin-top: 50px;
+	float: right;
+}
+.header-3{
+	width: 1030px;
+	height: 284px;
+	margin: 0 auto;
+}
+.header-3 .iphone5{
+	background: url(../images/iphone5-228x268.png) no-repeat 0 center;
+	width: 228px;
+	height:268px;
+	margin-top:16px; 
+	float: left;
+}
+.header-3 .icon{
+	width: 170px;
+	height: 30px;
+	border: 2px solid #ffffff;
+	float: right;
+	padding-top: 15px;
+}
+.header-3 .icon p{
+	width: 80px;
+	height: 20px;
+	font-size: 15px;
+	color: #ffffff;
+	margin-left: 30px;
+	float: left; 
+}
+.header-3 .icon i{
+	background:url(../images/diicon-18x13.png) no-repeat 0 center;
+	width: 18px;
+	height: 13px;
+	display: block;
+	float: right;
+	margin-right: 30px;	
+}
+.content-1{
+	width:100%;
+	height: 656px;
+	background-color: #f4f4f4;
+}
+.content-1-1{
+	width: 650px;
+	padding-top: 148px;
+	margin-left: 160px;
+	float: left;
+
+}
+.content-1-1 .one{
+	font-size: 45px;
+	color: #545454;
+	font-weight: bold;
+	height: 50px;
+	margin-left: 22px;
+}
+.content-1-1 .two{
+	height: 70px;
+	color: #7e7e7e;
+	font-size: 16px;
+	margin:32px 0 32px 0;
+	font-weight: bold;	
+}
+.content-1-1 .three{
+	border-left: 6px solid #4eacdd;
+	padding-left: 16px;
+	color:#7e7e7e;
+	font-weight: bold; 
+}
+.content-1-1 div{
+	width: 170px;
+	height: 32px;
+	border: 2px solid #14af8f;
+	margin-top: 70px;
+	padding-top: 20px;
+}
+.content-1-1 div p{
+	color: #14af8f;
+	font-size: 15px;
+	float: left;
+	margin-left:38px;
+	width: 70px;
+	height: 14px;
+}
+.content-1-1 div i{
+	background: url(../images/icon-16x13.png) no-repeat 0 center;
+	width:16px;
+	height: 13px;
+	margin-right: 18px;
+	float: right;
+	display: block;
+}
+.content-1-2{
+	background: url(../images/ipadflat-338x500.png) no-repeat 0 center;
+	width: 339px;
+	height: 500px;
+	float: right;
+	margin-top: 156px;
+}
+.content-2{
+	background: url(../images/devices-1260x650.png) no-repeat 0 center;
+	width: 100%;
+	height: 650px;
+}
+.content-2-1{
+	color: #545454;
+	font-size: 40px;
+	margin-top: 104px;
+	font-weight: bold;
+	margin-left: 726px;
+}
+.content-2-2{
+	color: #474e5d;
+	font-size: 16px;
+	margin-top: 40px;
+	font-weight: bold;
+	margin-left: 706px;
+}
+.content-2-3{
+	color:#474e5d;
+	font-size: 16px;
+	margin-left: 706px;
+	margin-top: 30px;
+}
+.content-2-4{
+	width: 220px;
+	height: 34px;
+	margin-top: 64px;
+	border: 2px solid #ea4c89;
+	margin-left: 702px;
+	padding-top: 20px;
+}
+.content-2-4 p{
+	font-size: 15px;
+	color: #ea4c89;
+	margin-left: 44px;
+	font-weight: bold;
+	float: left;
+}
+.content-2-4 i{
+	background: url(../images/dribbbleicon-13x14.png) no-repeat 0 center;
+	width: 13px;
+	height: 14px;
+	margin-right:34px;
+	float: right;
+}
+.content-3{
+	width: 100%;
+	height:230px;
+	background-color: #13c1ac;
+	padding-top: 96px;
+}
+.content-3 p{
+	font-size: 40px;
+	color: #ffffff;
+	font-weight: bold;
+	height: 40px;
+	margin-left: 478px;
+}
+.content-3 div{
+	border: 2px solid #ffffff;
+	margin: 0 auto;
+	width: 220px;
+	height: 34px;
+	margin-top: 44px;
+	padding-top: 20px;
+}
+.content-3 div p{
+	font-size: 15PX;
+	color: #fffefe;
+	margin-left: 54px;
+	height: 16px;
+	font-size: thin;
+	float: left;
+}
+.content-3 div i{
+	background: url(../images/beericon-14x13.png) no-repeat 0 center;
+	width: 14px;
+	height: 13px;
+	margin-right: 36px;
+	float: right;
+}
+.content-4{
+	width:100%;
+	height: 404px;
+	background-color: #f4f4f4;
+	padding-top: 244px;	
+}
+.content-4-1{
+ 	width: 344px;
+ 	height: 58px;
+ 	margin: 0 auto;
+}
+.content-4-1 li{
+	width: 60px;
+	height: 60px;
+	display: block;
+	float: left;
+	margin-right: 34px;
+}
+.content-4-1 .mail{
+	margin: 0;
+}
+.content-4-2{
+	width: 422px;
+	height: 46px;
+	margin-top: 66px;
+	margin-left: 420px;
+}
+.content-4-2 p{
+	font-size: 16px;
+	color: #545454;
+	float: left;
+	height: 20px;
+	font-weight: bold;
+	margin-top: 16px;
+}
+.content-4-2 div{
+	width: 216px;
+	height: 28px;
+	float: right;
+	background-color: #ffffff;
+	padding-top: 18px;
+}
+.content-4-2 div p{
+	font-size: 14px;
+	color: #d3d3d3;
+	float: left;
+	margin: 0 0 0 16px;
+	font-weight: bold;
+	height: 12px;
+}
+.content-4-2 div i{
+	background: url(../images/icon-1-16x13.png) no-repeat 0 center;
+	width: 16px;
+	height: 13px;
+	float: right;
+	margin-right: 20px;s
+}
+.footer{
+	background-color: #ffffff
+	width: 100%;
+	height: 104px;
+}
+.footer>p{
+	font-size: 12px;
+	height: 14px;
+	margin-top: 50px;
+	color: #545454;
+	float: left;
+	margin-left: 494px;
+}
+.footer>p>span{
+	color: #6dc5ea;
+}
+.footer>i{
+	background: url(../images/totop-40x40.png) no-repeat 0 center;
+	width: 40px;
+	height: 40px;
+	display: block;
+	margin-right:58px;
+	float: right; 
+	margin-top: 36px;
+}
