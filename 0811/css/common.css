@@ -1,0 +1,13 @@
+
+.public-header{
+	height:108px;
+}
+.public-container{
+	position: relative;
+	margin: 0 auto;
+	width: 800px;
+}
+.public-footer{
+	height: 123px;
+	background: #3b3b3b;
+}
