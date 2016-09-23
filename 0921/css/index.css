@@ -1,0 +1,262 @@
+body{
+	padding: 0;
+	margin: 0;
+}
+ul{
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+}
+i, span{
+	display: block;
+}
+p{
+	font-family: "Myriad Pro Reg";
+}
+/*-------header begin-----------*/
+.header{
+	width: 100%;
+	height:78px;
+	background-color: #232d3b; 
+}
+.header-middle{
+	width: 950px;
+	height: 78px;
+	margin: 0 auto;
+}
+.header-middle div:first-child{
+	width: 188px;
+	height: 78px;
+	float: left;
+}
+.header-middle p{
+	font-size: 24px;
+	color:#ffffff;
+	line-height: 70px;
+	float: right;
+	margin: 0;
+	text-transform: uppercase;
+}
+.header-middle ul{
+	width: 456px;
+	height: 78px;
+	float: left;
+	margin-left: 200px;
+}
+.header-middle ul li{
+	font-size: 12px;
+	color: #7f8388;
+	line-height: 78px;
+	margin-left: 42px;
+	float: left;
+}
+.header-middle div:last-child{
+	width: 106px;
+	height: 42px;
+	background-color: #a3d39c;
+	float: left;
+	margin-top: 14px;
+	border-bottom: 2px solid #739e6c;
+	border-radius: 4px;
+}
+.header-middle span{
+	font-size: 13px;
+	color: #ffffff;
+	font-family: "Myriad Pro Reg";
+	line-height: 42px;
+	text-align: center;
+}
+/*-------header end-----------*/
+/*-------content begin-----------*/
+.content-1{
+	width: 100%;
+	height: 718px;
+	background-color: #ee5f15;
+	padding-top: 10px;
+}
+.content-1-middle{
+	width: 100%;
+	height: 642px;
+	background-color: #ff742c;
+	padding-top: 46px;
+}
+.content-1-middle ul{
+	width: 72px;
+	height: 192px;
+	margin-left: 16px;
+	float: left;
+}
+.content-1-middle ul li{
+	width: 56px;
+	height: 46px;
+	padding-top: 18px;
+	padding-left: 16px;
+}
+.content-1-middle-1{
+	width: 620px;
+	height: 52px;
+	margin: 0 auto;
+}
+.content-1-middle-1 div{
+	width: 300px;
+	height: 52px;
+	background-color: #ffffff;
+}
+.content-1-middle-1 div span:first-child{
+	width: 246px;
+	height: 52px;
+	float: left;
+}
+.content-1-middle-1 div span:last-child{
+	width: 54px;
+	height: 52px;
+	background-color: #7accc8;
+	float: right;
+}
+.content-1-middle-1 div span img{
+	margin: 16px 0 0 22px;
+	float: left;
+}
+.content-1-middle-1 div span p{
+	font-size: 15px;
+	color: #898989;
+	line-height: 52px;
+	float: left;
+	margin: 0 0 0 10px;
+}
+.content-1-middle-1 div span i{
+	background: url(../images/jianhao-15x10.png) no-repeat 0 center;
+	width: 15px;
+	height: 10px;
+	display: block;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+.content-1-middle-2{
+	width: 300px;
+	height: 64px;
+	background-color: #7accc8;
+	margin: 0 auto;
+	margin-top: 20px;
+	border-bottom: 2px solid #4aaaa5;
+	border-radius: 4px;
+	font-size: 21px;
+	color: #ffffff;
+	font-family: "Myriad Pro Reg";
+	line-height: 64px;
+	text-align: center;
+}
+.content-2{
+	width: 100%;
+	height: 430px;
+	background-color: #f6f5f2;
+	padding-top: 56px;
+}
+.content-2 ul{
+	width: 940px;
+	height: 274px;
+	margin: 0 auto;
+}
+.content-2 ul li{
+	width: 460px;
+	height: 274px;
+}
+.content-2 ul li p:first-child{
+	font-size: 25px;
+	color: #232d3b;
+	line-height: 24px;
+	margin: 0;
+}
+.content-2 ul li p:last-child{
+	font-size: 14px;
+	color: #959595;
+	margin: 24px 0 0 0;
+}
+.content-2 ul li span{
+	color: #ff742c;
+}
+.content-3{
+	width: 100%;
+	height: 776px;
+	border-bottom: 16px solid #0d131a;
+}
+.content-3-1{
+	width: 100%;
+	height: 236px;
+}
+.content-3-2{
+	width: 100%;
+	height: 114px;
+	background-color: #5dbab5;
+	padding-top: 426px;
+}
+.content-3-2 i{
+	background:url(../images/nav-106x13.png);
+	width: 106px;
+	height: 13px;
+	margin: 0 auto;
+}
+/*-------content end-----------*/
+.footer{
+	width: 100%;
+	height: 580px;
+	background-color: #151c27;
+	padding-top: 48px;
+}
+.footer-middle{
+	width: 940px;
+	height: 168px;
+	margin: 0 auto;
+}
+.footer-middle-1{
+	width: 540px;
+	height: 168px;
+	float: left;
+}
+.footer-middle-1-1{
+	width: 540px;
+	height: 22px;
+}
+.footer-middle-1-1 p{
+	font-size: 24px;
+	color:#ffffff;
+	line-height: 20px;
+	float: left;
+	margin: 0;
+	text-transform: uppercase;
+	margin-left: 8px;
+}
+.footer-middle-1-2{
+	font-size:12px;
+	color:#4c5c74;
+	line-height: 14px;
+	height: 14px;
+	margin: 24px 0 24px 0;
+}
+.footer-middle-1-3{
+	width: 540px;
+	height: 82px;
+	background-color: #080c11;
+}
+.footer-middle-1-3 p{
+	font-size: 18px;
+	color: #ffffff;
+	line-height: 82px;
+	margin: 0 0 0 40px ;
+	float: left;
+}
+.footer-middle-1-3 img{
+	display: block;
+	float: right;
+	margin-right: 36px;
+	margin-top: 30px;
+}
+.footer-middle ul{
+	width: 300px;
+	height: 60px;
+	float: right;
+	padding-top: 2px;
+}
+.footer-middle ul li{
+	float: left;
+}
