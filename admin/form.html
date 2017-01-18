@@ -1,0 +1,68 @@
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <title>表单</title>
+    <link rel="stylesheet" type="text/css" href="bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="bootstrap/dist/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/form.css">
+</head>
+<body ">
+	<header>
+        <div class="row ">
+            <div class="col-xs-2 ">
+                <h3 style="color: #ffffff; ">公交管理</h3>
+            </div>
+            <div class="col-xs-10 ">
+            </div>
+        </div>
+    </header>
+    <content>
+    	<div class="row ">
+        	<div class="col-xs-2 ">
+            	<ul class="nav nav-pills nav-stacked " role="tablist " style="max-width: 300px; ">
+                	<li role="presentation " class="active ">
+                    	<a href="# ">平台概况</a>
+                	</li>
+                	<li role="presentation "><a href="# ">公车管理</a>
+                	</li>
+                	<li role="presentation "><a href="# ">用户管理</a></li>
+            	</ul>
+        	</div>
+        	<div class="col-xs-10">
+    			<div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 ">
+        			<form role="form">
+            			<div class="form-group ">
+                			<label for="name ">姓名</label>
+                			<input type="text " class="form-control " id="name " placeholder="请输入姓名 "></input>
+           				 </div>
+            			<div class="form-group ">
+                			<label for="tel ">电话号码</label>
+                			<input type="text " class="form-control " id="tel " placeholder="请输入您的电话号码 "></input>
+            			</div>
+            			<div class="form-group ">
+                			<label for="idCard ">请上传身份证</label>
+                			<input type="file " id="idCard "></input>
+           				</div>
+            			<div class="form-group ">
+                			<label for="profession ">车辆类型</label>
+                			<select id="profession " class="form-control ">
+                    			<option>奔驰</option>
+                    			<option>宝马</option>
+                    			<option>丰田</option>
+                    			<option>一汽大众</option>
+                			</select>
+            			</div>
+            			<div class="form-group ">
+                			<button type="submit " class="btn-info btn-lg ">提交</button>
+            			</div>
+            		</form>
+            	</div>
+            </div>
+        </div>
+    </content>    
+    <script type="text/javascript " src="js/jquery.min.js "></script>
+    <script type="text/javascript " src="bootstrap/dist/js/bootstrap.min.js "></script>
+</body>
+</html>

@@ -1,0 +1,15 @@
+header{
+	background-color: #000000;
+}
+.row{
+	margin: 0;
+}
+.col-xs-10,.col-xs-2{
+	padding: 0;
+}
+.col-xs-10{
+	background-color: #dde0e7;
+}
+table{
+	border: 2px solid #e4e7ed;
+}

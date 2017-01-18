@@ -1,0 +1,167 @@
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <title>list-page</title>
+    <link rel="stylesheet" type="text/css" href="bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="bootstrap/dist/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" type="text/css" href="css/list.css">
+</head>
+<body>
+    <header>
+        <div class="row">
+            <div class="col-xs-2">
+                <h3 style="color: #ffffff;">公交管理</h3>
+            </div>
+            <div class="col-xs-10">
+            </div>
+        </div>
+    </header>
+    <content>
+    	<div class="row">
+        	<div class="col-xs-2">
+           		<ul class="nav nav-pills nav-stacked" role="tablist" style="max-width: 300px;">
+                	<li role="presentation" class="active">
+                    	<a href="#">平台概况</a>
+                	</li>
+                	<li role="presentation"><a href="#">公车管理</a>
+                	</li>
+                	<li role="presentation"><a href="#">用户管理</a></li>
+            	</ul>
+        	</div>
+        	<div class="col-xs-10">
+        		<h3>车辆管理</h3>
+           		<form class="form-inline" role="form">
+                	<div class="form-group">
+                    	<label>信息</label>
+                    	<input type="text" class="form-control">
+                	</div>
+                	<div class="form-group">
+                    	<label>内容</label>
+                    	<input type="text" class="form-control">
+                	</div>
+                	<button class="btn  btn-primary " type="submit">查看</button>
+                	<button class="btn  btn-primary " type="submit">增加</button>
+            	</form>
+            	<div class="col-xs-12">
+                	<table class="table table-striped">
+                    	<thead>
+                        	<tr>
+                            	<th>车辆名称</th>
+                            	<th>车辆类型</th>
+                            	<th>车辆价格</th>
+                            	<th>操&nbsp;&nbsp;作</th>
+                        	</tr>
+                    	</thead>
+                    	<tbody>
+                        	<tr>
+                            	<td>丰田</td>
+                            	<td>小轿车</td>
+                            	<td>200</td>
+                            	<td>
+                                	<a href="#" data-toggle="modal" data-target="#myModal">编辑</a>
+                               		<a href="#" data-toggle="modal" data-target="#myModal">删除</a>
+                            	</td>
+                        	</tr>
+                        	<tr>
+                            	<td>丰田</td>
+                            	<td>小轿车</td>
+                            	<td>200</td>
+                            	<td>
+                                	<a href="#" data-toggle="modal" data-target="#myModal">编辑</a>
+                                	<a href="#" data-toggle="modal" data-target="#myModal">删除</a>
+                            	</td>
+                        	</tr>
+                        	<tr>
+                            	<td>丰田</td>
+                            	<td>小轿车</td>
+                            	<td>200</td>
+                            	<td>
+                                	<a href="#" data-toggle="modal" data-target="#myModal">编辑</a>
+                                	<a href="#" data-toggle="modal" data-target="#myModal">删除</a>
+                            	</td>
+                        	</tr>
+                        	<tr>
+                            	<td>丰田</td>
+                            	<td>小轿车</td>
+                            	<td>200</td>
+                            	<td>
+                                	<a href="#" data-toggle="modal" data-target="#myModal">编辑</a>
+                                	<a href="#" data-toggle="modal" data-target="#myModal">删除</a>
+                            	</td>
+                        	</tr>
+                        	<tr>
+                            	<td>丰田</td>
+                            	<td>小轿车</td>
+                            	<td>200</td>
+                            	<td>
+                                	<a href="#" data-toggle="modal" data-target="#myModal">编辑</a>
+                                	<a href="#" data-toggle="modal" data-target="#myModal">删除</a>
+                            	</td>
+                        	</tr>
+                        	<tr>
+                            	<td>丰田</td>
+                            	<td>小轿车</td>
+                            	<td>200</td>
+                            	<td>
+                                	<a href="#" data-toggle="modal" data-target="#myModal">编辑</a>
+                                	<a href="#" data-toggle="modal" data-target="#myModal">删除</a>
+                            	</td>
+                        	</tr>
+                        	<tr>
+                            	<td>丰田</td>
+                            	<td>小轿车</td>
+                            	<td>200</td>
+                            	<td>
+                                	<a href="#" data-toggle="modal" data-target="#myModal">编辑</a>
+                                	<a href="#" data-toggle="modal" data-target="#myModal">删除</a>
+                            	</td>
+                        	</tr>
+                        	<tr>
+                            	<td>丰田</td>
+                            	<td>小轿车</td>
+                            	<td>200</td>
+                            	<td>
+                                	<a href="#" data-toggle="modal" data-target="#myModal">编辑</a>
+                                	<a href="#" data-toggle="modal" data-target="#myModal">删除</a>
+                            	</td>
+                        	</tr>
+                    	</tbody>
+                	</table>
+                	<nav>
+                    	<ul class="pagination">
+                        	<li clas="disabled"><a href="#">«</a></li>
+                       	 	<li class="active"><a href="#">1 <span class="sr-only">(current)</span></a></li>
+                        	<li><a href="#">2</a></li>
+                        	<li><a href="#">3</a></li>
+                        	<li><a href="#">4</a></li>
+                        	<li><a href="#">5</a></li>
+                        	<li><a href="#">»</a></li>
+                    	</ul>
+                	</nav>
+           		</div>
+        	</div>
+    	</div>
+    </content>
+    <!-- Modal -->
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                    <h4 class="modal-title" id="myModalLabel">设备管理</h4>
+                </div>
+                <div class="modal-body">
+                    可用
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">删除</button>
+                    <button type="button" class="btn btn-primary">确认</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
